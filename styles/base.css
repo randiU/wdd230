@@ -1,5 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-    --primary-color: 
+body {
+    --primary-blue: #352CE8; 
+    --black: black;
+    --primary-gray: #F3F3F3;
+    --primary-text: "Barlow", sans-serif;
+    --primary-text-weight: 900;
+    --secondary-text: "Montserrat", sans-serif;
+    --secondary-text-weight: 500;
+
+}
+
+header {
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#header-image {
+    width: 100px;
+    border-radius: 10px;
+}
+
+#header-name {
+    padding: 20px 0;
+    padding-left: 5%;
+}
+
+
+h1 {
+    font-family: var(--primary-text);
+    font-weight: var(--primary-text-weight);
+}
+
+nav {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--primary-gray);
+    border-radius: 10px;
+}
+
+nav a {
+    text-align: center;
+    padding: 1.5% 0 1.5% 0;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    color: var(--black);
+    text-decoration: none;
+}
+
+main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }

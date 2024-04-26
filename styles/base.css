@@ -12,23 +12,27 @@ body {
 }
 
 header {
-    width: 50%;
-    display: flex;
-    justify-content: center; 
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
 }
 
 #header-image {
-    width: 100px;
+    width: 15%;
+    height: auto;
     border-radius: 10px;
+    align-self: center;
 }
 
 #header-name {
     padding: 20px 0;
     padding-left: 5%;
+    
 }
 
 
@@ -59,8 +63,69 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: #352CE8;
+    color: white;
+}
+
 main {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#main-header {
+    text-align: center;
+    padding: 1%;
+    font-family: var(--primary-text);
+    font-weight: var(--primary-text-weight);
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+.card h3 {
+    text-align: center;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    background-color: #352CE8;
+    padding: 3%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+}
+
+.card p {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    text-align: center;
+}
+
+footer {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
 }

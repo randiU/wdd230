@@ -121,6 +121,14 @@ main {
     text-align: center;
 }
 
+.card a {
+    text-decoration: none;
+}
+
+.card a:visited {
+    color:#352CE8;
+}
+
 footer {
     width: 50%;
     text-align: center;

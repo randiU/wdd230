@@ -1,0 +1,14 @@
+@media screen and (max-width: 1300px) {
+    #visual-hierarchy {
+        grid-column: 1/7;
+    }
+
+    #contrast {
+        grid-column: 7/13;
+    }
+
+    #clean-design {
+        grid-column: 4/10;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+
+    #visual-hierarchy, #contrast, #clean-design {
+        grid-column: 1/13;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}

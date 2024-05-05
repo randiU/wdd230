@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    #header-image {
+        width: 12%;
+    }
+
+    header {
+        justify-items: start;
+    }
+
+    #header-name {
+        padding-left: 15px;
+        font-size: 1.3rem;
+    }
+    nav a {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .open a {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        background-color: white;
+        border: none;
+        font-size: 1.5rem;
+        padding: 7.5px 0 0 10px;
+
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "✖️";
+    }
+
+
+}

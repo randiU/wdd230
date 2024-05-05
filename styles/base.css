@@ -139,6 +139,10 @@ main {
     color:#352CE8;
 }
 
+#menu {
+    display: none;
+}
+
 footer {
     grid-column: 3/11;
     width: 100%;

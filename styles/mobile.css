@@ -44,5 +44,17 @@
         content: "✖️";
     }
 
+    .card ul li {
+        font-size: .75rem;
+    }
+    
+    .card ul {
+        padding: 1rem;
+    }
+
+    #information-card {
+        font-size: .75rem;
+    }
+    
 
 }

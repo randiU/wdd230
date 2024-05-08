@@ -1,0 +1,36 @@
+body {
+    --red: #6C0345;
+    --orange: #DC6B19;
+    --yellow: #F7C566;
+    --off-white: #FFF8DC;
+    --primary-font: "Arvo", serif;
+    --secondary-font: "Lato", serif;
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--secondary-font);
+}
+
+li {
+    font-family: var(--secondary-font);
+}
+
+#red-color {
+    color: var(--red);
+}
+
+#orange-color {
+    color: var(--orange);
+}
+
+#yellow-color {
+    color: var(--yellow);
+}
+
+#off-white-color {
+    color: var(--off-white);
+}

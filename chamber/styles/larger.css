@@ -1,0 +1,72 @@
+@media screen and (min-width: 1400px) {
+
+    body {
+        --red: #6C0345;
+        --orange: #DC6B19;
+        --yellow: #F7C566;
+        --off-white: #FFF8DC;
+        --primary-font: "Arvo", serif;
+        --secondary-font: "Lato", serif;
+    }
+
+    main {
+        grid-column: 3/11;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 1rem;
+    }
+
+    header {
+        grid-column: 3/5;
+    }
+
+    .navigation {
+        display: flex;
+        grid-column: 5/11;
+        justify-content: right;
+        align-items: flex-end;
+        background-color: var(--off-white);
+        color: var(--red);
+        margin-bottom: .6rem;
+        font-size: 1.3rem;
+        justify-content: space-around;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #logo {
+        grid-column: 1/12;
+    }
+
+    #main-image {
+        grid-column: 1/13;
+    }
+
+    #weather {
+        grid-column: 1/5;
+    }
+
+    #business-spotlight {
+        grid-column: 5/9;
+    }
+
+    #call-to-action {
+        grid-column: 9/13;
+    }
+
+    #current-events {
+        grid-column: 1/13;
+    }
+
+    footer {
+        grid-column: 3/11;
+        text-align: center;
+    }
+
+}

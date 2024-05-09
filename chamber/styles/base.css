@@ -1,0 +1,103 @@
+body {
+    --red: #6C0345;
+    --orange: #DC6B19;
+    --yellow: #F7C566;
+    --off-white: #FFF8DC;
+    --primary-font: "Arvo", serif;
+    --secondary-font: "Lato", serif;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: var(--off-white);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+main {
+   grid-column: 2/12;
+}
+
+footer {
+    grid-column: 2/12;
+    font-family: var(--secondary-font);
+}
+
+#logo {
+    grid-column: 1/7;
+    margin-bottom: 1rem;
+}
+
+
+nav a {
+    display: none;
+    padding: .5rem;
+    font-family: var(--primary-font);
+    font-weight: 550;
+}
+
+nav {
+    width: 100%;
+   grid-column: 2/12;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: var(--red);
+   color: var(--off-white);
+}
+
+.open a {
+    display: block;
+}
+
+.open {
+    display: block;
+}
+
+#menu {
+    display: block;
+    background-color: var(--off-white);
+    border: none;
+    font-size: 1.5rem;
+    padding: 7.5px 0 0 10px;
+    grid-column: 12/13;
+
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖️";
+}
+
+#weather h1, #business-spotlight h1, #call-to-action h1, #current-events h1 {
+    font-family: var(--primary-font);
+    color: var(--off-white);
+    background-color: var(--red);
+    text-align: center;
+    padding: .75rem;
+}
+
+p {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+
+
+
+

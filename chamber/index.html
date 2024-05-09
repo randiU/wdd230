@@ -4,38 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boron Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/boron-logo-01.svg" alt="Logo for Boron with donkey head.">
-        <nav>
-            <a>Home</a>
-            <a>Discovery</a>
-            <a>Directory</a>
-            <a>Join</a>
-        </nav>
+        <img src="images/boron-logo-01.svg" alt="Logo for Boron with donkey head." id="logo">
+        <button id="menu"></button>
     </header>
+    <nav class="navigation">
+        <a>Home</a>
+        <a>Discovery</a>
+        <a>Directory</a>
+        <a>Join</a>
+    </nav>
     <main>
-        <section>
-            <img src="images/temp-hero-image.jpg" alt="Image of desert by Boron California.">
-        </section>
-        <section>
+        <img src="images/temp-hero-image-short.jpg" alt="Image of desert by Boron California." id="main-image">
+        <section id="weather">
             <h1>Weather</h1>
-            <h2>Temperature: 110&degF</h2>
+            <img src="images/blue-skies.jpg" alt="Sun in the sky">
+            <h2>Temperature: 110&deg; F</h2>
         </section>
-        <section>
+        <section id="business-spotlight">
             <h1>Business Spotlights</h1>
-            <h2>20 Mule Team Borax</h2>
             <img src="images/20-mule-team-borax.jpg" alt="Box of 20 Mule Team Borox detergent.">
-            <p></p>
+            <h2>20 Mule Team Borax</h2>
+            <p>The power of Borax works just as hard as the heritage of its mule team, cleaning deep to tackle your toughest mess.</p>
         </section>
-        <section>
+        <section id="call-to-action">
             <h1>Join Us!</h1>
             <img src="images/welcome-image.jpg" alt="Welcome sign to Boron California">
             <p>Join the Boron Chamber of Commerce to work grow and better our small community!</p>
         </section>
-        <section>
+        <section id="current-events">
             <h1>Current Events</h1>
             <img src="images/parade.png" alt="20 Mule Team Days parade.">
             <h2>Coming up: 20 Mule Team Days Parade!</h2>
@@ -46,5 +48,7 @@
         <p id="copyright-date">&copy; 2024 Randi Umphrey - BYUI WDD 230 Chamber of Commerce Project</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>

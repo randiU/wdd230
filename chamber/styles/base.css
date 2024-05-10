@@ -95,7 +95,7 @@ nav {
     content: "✖️";
 }
 
-#weather h1, #business-spotlight h1, #call-to-action h1, #current-events h1 {
+#weather h2, #business-spotlight h2, #call-to-action h2, #current-events h2 {
     font-family: var(--primary-font);
     color: var(--off-white);
     background-color: var(--red);
@@ -112,12 +112,12 @@ p {
     font-weight: 500;
 }
 
-h2 {
+h3 {
     font-family: var(--secondary-font);
-    font-weight: 600;
+    font-weight: 800;
 }
 
-#weather h2 {
+#weather h3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }

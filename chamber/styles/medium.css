@@ -27,6 +27,7 @@
 
     #logo {
         grid-column: 1/12;
+        padding-top: 1rem;
     }
 
     #main-image {
@@ -69,5 +70,7 @@
     #small-mule-image {
         display:none;
     }
+
+    /*add shorter image for current events*/
 
 }

@@ -1,0 +1,73 @@
+@media screen and (min-width: 1000px) {
+    main {
+        grid-column: 2/12;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 1rem;
+    }
+    
+    .navigation {
+        display: flex;
+        grid-column: 6/12;
+        align-items: flex-end;
+        background-color: var(--off-white);
+        color: var(--red);
+        margin-bottom: .6rem;
+        font-size: 1.3rem;
+        justify-content: space-evenly;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    .navigation a:hover {
+        text-decoration: underline 4px;
+    }
+
+    #logo {
+        grid-column: 1/12;
+    }
+
+    #main-image {
+        grid-column: 1/13;
+    }
+
+    header {
+        grid-column: 2/4;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #weather {
+        grid-column: 1/7;
+    }
+
+    #business-spotlight {
+        grid-column: 7/13;
+    }
+
+    #call-to-action {
+        grid-column: 1/7;
+    }
+
+    #current-events {
+        grid-column: 7/13;
+    }
+
+    footer {
+        grid-column: 2/12;
+        text-align: center;
+    }
+
+    #large-mule-image {
+        display: block;
+    }
+
+    #small-mule-image {
+        display:none;
+    }
+
+}

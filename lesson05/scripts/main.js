@@ -12,8 +12,10 @@ button.addEventListener('click', () => {
         list.append(li);
 
         deleteButton.addEventListener('click', function () {
-            list.removeChild(li);
-            input.focus();
+            if (confirm("Are you sure you want to permanently delete this entry?")) {
+                list.removeChild(li);
+                input.focus();
+            };    
         });
 
         input.focus();

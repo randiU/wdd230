@@ -91,11 +91,12 @@ nav {
 }
 
 #menu::before {
-    content: "☰";
+    content: "☰"; 
+    color:#6C0345;
 }
 
 #menu.open::before {
-    content: "✖️";
+    content: "❌";
 }
 
 #weather h2, #business-spotlight h2, #call-to-action h2, #current-events h2 {

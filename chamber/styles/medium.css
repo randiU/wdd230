@@ -8,7 +8,7 @@
     
     .navigation {
         display: flex;
-        grid-column: 6/12;
+        grid-column: 6/11;
         align-items: flex-end;
         background-color: var(--off-white);
         color: var(--red);
@@ -69,6 +69,10 @@
 
     #small-mule-image {
         display:none;
+    }
+
+    .switch {
+        grid-column: 11/12;
     }
 
 

@@ -18,7 +18,7 @@
     }
 
     .navigation {
-        grid-column: 6/11;
+        grid-column: 7/11;
     }
 
 
@@ -53,4 +53,8 @@
 
     }
 
+    .switch {
+        grid-column: 10/11;
+        
+    }
 }

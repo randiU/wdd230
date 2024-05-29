@@ -55,6 +55,27 @@
     #information-card {
         font-size: .75rem;
     }
-    
 
+    .card {
+        width: 80%;
+    }
+    
+    .temple-img img {
+        margin-top: 0;
+        width: 80%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .temple-label {
+        top: 8%;
+        left: 15%;
+    }
+
+    .navigation {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
 }

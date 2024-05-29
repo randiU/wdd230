@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    /*width: 60%;*/
     grid-column: 2/12;
     justify-items: center;
     margin-left: auto;
@@ -84,6 +83,33 @@ main {
     margin-right: auto;
     grid-column: 2/12;
 }
+
+.temple-img img{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.temple-label {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    background-color: white;
+    padding: 1% 1.5% 1% 1.5%;
+    border-radius: 10px;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    font-size: .5rem;
+}
+
+.temple-container {
+    position: relative;
+}
+
 
 #main-header {
     text-align: center;

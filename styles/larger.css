@@ -34,6 +34,23 @@
         column-gap: 2rem;
     }
 
+    .temple-container {
+        grid-column: 1/3;
+    }
+
+    .temple-img img {
+        border-radius: 15px;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .temple-label {
+        top: 10%;
+        left: 3%;
+        padding: 1% 1.5% 1% 1.5%;
+        font-size: 1rem;
+    }
+
     #main-header {
         grid-column: 1/3;
     }

@@ -5,6 +5,9 @@ body {
     --off-white: #FFF8DC;
     --primary-font: "Arvo", serif;
     --secondary-font: "Lato", serif;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img {
@@ -15,6 +18,7 @@ body {
     background-color: var(--off-white);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    max-width: 960px;
 }
 
 header {
@@ -42,11 +46,11 @@ footer {
 }
 
 #logo {
-    grid-column: 1/7;
+    grid-column: 1/5;
     margin-bottom: 1rem;
 }
 
-#main-image {
+#main-image img{
     border-radius: 15px;
 }
 
@@ -200,7 +204,6 @@ h3 {
   }
 
   .switch {
-    grid-column: 10/11;
+    grid-column: 11/12;
     margin-top:2rem;
-    margin-left: 50%;
   }

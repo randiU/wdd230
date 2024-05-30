@@ -10,15 +10,15 @@
     }
 
     main {
-        grid-column: 3/11;
+        grid-column: 1/13;
     }
 
     header {
-        grid-column: 3/5;
+        grid-column: 1/4;
     }
 
     .navigation {
-        grid-column: 7/11;
+        grid-column: 7/13;
     }
 
 
@@ -54,7 +54,7 @@
     }
 
     .switch {
-        grid-column: 10/11;
+        grid-column: 12/13;
         
     }
 }

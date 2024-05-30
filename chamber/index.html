@@ -23,7 +23,11 @@
         <span class="slider round"></span>
     </label>
     <header>
-        <img src="images/boron-logo-01.svg" alt="Logo for Boron with donkey head." id="logo">
+        <picture id="logo">
+            <source srcset="images/boron-logo-small.webp" media="(max-width: 500px)">
+            <source srcset="images/boron-logo-medium.webp" media="(max-width: 1000px)">
+            <img src="images/boron-logo-01.webp" alt="Boron logo">
+        </picture>
         <button id="menu" aria-label="Menu Button"></button>
     </header>
     <nav class="navigation">
@@ -33,29 +37,53 @@
         <a>Join</a>
     </nav>
     <main>
-        <img src="images/temp-hero-image-short.jpg" alt="Image of desert by Boron California." id="main-image">
+        <picture id="main-image">
+            <source srcset="images/week-6-img-small.webp" media="(max-width: 500px)">
+            <source srcset="images/week-6-img-medium.webp" media="(max-width: 1000px)">
+            <img src="images/week-6-img-large.webp" alt="People talking around a table.">
+        </picture>
         <h1 id="welcome-message">Welcome to the Boron Chamber of Commerce!</h1>
         <section id="weather">
             <h2>Weather</h2>
-            <img src="images/blue-skies.jpg" alt="Sun in the sky">
-            <h3>Temperature: 110&deg; F</h3>
+            <picture>
+                <source srcset="images/blue-sky-small.webp" media="(max-width: 500px)">
+                <source srcset="images/blue-sky-medium.webp" media="(max-width: 1000px)">
+                <img src="images/blue-sky-large.webp" alt="Picturey of sky with clouds.">
+            </picture>
+            <h3>Weather Information</h3>
+            <p>Temperature: <span id="temperature">110</span><span>&deg; F</span></p>
+            <p>Wind Speed: <span id="wind-speed">15</span><span>mph</span></p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
+
+            
         </section>
         <section id="business-spotlight">
             <h2>Business Spotlights</h2>
-            <img src="images/20-mule-team-borax-small.jpg" alt="Box of 20 Mule Team Borox detergent.">
+            <picture>
+                <source srcset="images/20-mule-team-borax-small.webp" media="(max-width: 500px)">
+                <source srcset="images/20-mule-team-borax-medium.webp" media="(max-width: 1000px)">
+                <img src="images/20-mule-team-borax-large.webp" alt="Box of 20 Mule Team Borox">
+            </picture>
             <h3>20 Mule Team Borax</h3>
             <p>The power of Borax works just as hard as the heritage of its mule team, cleaning deep to tackle your toughest mess.</p>
         </section>
         <section id="call-to-action">
             <h2>Join Us!</h2>
-            <img src="images/welcome-image-small.jpg" alt="Welcome sign to Boron California">
+            <picture>
+                <source srcset="images/boron-small.webp" media="(max-width: 500px)">
+                <source srcset="images/boron-medium.webp" media="(max-width: 1000px)">
+                <img src="images/boron.webp" alt="Sign in Boron California">
+            </picture>
             <h3>We'd Love to Have You!</h3>
             <p>Join the Boron Chamber of Commerce to work grow and better our small community!</p>
         </section>
         <section id="current-events">
             <h2>Current Events</h2>
-            <img src="images/parade.png" alt="20 Mule Team Days parade." id="large-mule-image">
-            <img src="images/parade-short.jpg" alt="20 Mule Team Days parade" id="small-mule-image">
+            <picture>
+                <source srcset="images/parade-small.webp" media="(max-width: 500px)">
+                <source srcset="images/parade-medium.webp" media="(max-width: 1000px)">
+                <img src="images/parade.webp" alt="Parade in Boron.">
+            </picture>
             <h3>Coming up: 20 Mule Team Days Parade!</h3>
             <p>It's like going back in time. Boron is a small town and it wouldn't be around without the Borax mine. The Borax team used the famous 20 mule team to get their product through Death Valley.</p>
         </section>
@@ -67,5 +95,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

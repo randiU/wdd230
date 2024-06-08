@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Chamber of Commerce website for Boron California. Created for WDD 230 course.">
+    <meta name="author" content="Randi Umphrey">
+    <meta property="og:title" content="WDD 230 Chamber of Commerce Website Assignment">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://borates.today/storage/2021/11/Boron-in-California.jpg"> 
+    <meta property="og:url" content="https://randiu.github.io/wdd230/chamber">
+</head>
+<body>
+    <label class="switch">
+        <input type="checkbox" id="dark-mode-switch" aria-label="Switch for dark mode.">
+        <span class="slider round"></span>
+    </label>
+    <header>
+        <picture id="logo">
+            <source srcset="images/boron-logo-small.webp" media="(max-width: 500px)">
+            <source srcset="images/boron-logo-medium.webp" media="(max-width: 1000px)">
+            <img src="images/boron-logo-01.webp" alt="Boron logo">
+        </picture>
+        <button id="menu" aria-label="Menu Button"></button>
+    </header>
+    <nav class="navigation">
+        <a>Home</a>
+        <a>Discovery</a>
+        <a>Directory</a>
+        <a>Join</a>
+    </nav>
+    <main>
+        <h1 id="discovery-header">Discovery</h1>
+        <section class="last-visit">
+            <h3 id="visit-message"></h3>
+        </section>
+        <aside class="sidebar">
+            <h2>News & Notices</h2>
+            <section>
+                <h3>Boron Partners with Lancaster Police Department</h3>
+                <p>July 04, 2024</p>
+                <p>The city police stations are working together to reduce crime.</p>
+                <a href="#">Learn More</a>
+            </section>
+            <hr>
+            <section>
+                <h3>Volunteers needed for upcoming parade</h3>
+                <p>June 30, 2024</p>
+                <p>We are in need of some extra volunteers for the 20 Mule Team Days Parade. Contact us at 555-801-3454.</p>
+                <a href="#">Learn More</a>
+            </section>
+            <hr>
+            <section>
+                <h3>Local Farmer's Market Thrives Despite Arid Conditions</h3>
+                <p>June 07, 2024</p>
+                <p>Despite it being a blisteringly hot summer, the local farmers market is in full swing.</p>
+                <a href="#">Learn more</a>
+            </section>
+            <hr>
+            <section>
+                <h3>Tourism Boom: Desert Town's Unique Landscapes Draw Visitors from Far and Wide</h3>
+                <p>June 05, 2024</p>
+                <p>Boron isn't such a sleepy town after all! Tourism is booming and it's great for local businesses.</p>
+                <a href="#">Learn more</a>
+            </section>
+            <hr>
+            <section>
+                <h3>More News</h3>
+                <p>To see more news, <a href="#">click here</a>.</p>
+            </section>
+        </aside>
+        <section class="image-gallery">
+            <h2>Image Gallery</h2>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/open-pit-mine-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/open-pit-mine-medium.webp" media="(max-width100px)">
+                    <img loading="lazy" src="images/open-pit-mine.webp" alt="Open pit mine." width="800" height="400">
+                </picture>
+                <figcaption>Come see the largest open pit mine!</figcaption>
+            </figure>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/domingos-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/domingos-medium.webp.webp" media="(max-width100px)">
+                    <img src="images/domingos.webp" alt="Mexican restaurant." width="800" height="400">
+                </picture>
+                <figcaption>More than 100 astronauts have eaten at Domingos.</figcaption>
+            </figure>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/pioneer-park-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/pioneer-park-medium.webp.webp" media="(max-width100px)">
+                    <img loading="lazy" src="images/pioneer-park.webp" alt="Mexican restaurant." width="800" height="400">
+                </picture>
+                <figcaption>A large mining truck is on display at Pioneer Park.</figcaption>
+            </figure>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/joshua-tree-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/joshua-tree-medium.webp.webp" media="(max-width100px)">
+                    <img loading="lazy" src="images/joshua-tree.webp" alt="Joshua tree in mojave desert." width="800" height="400">
+                </picture>
+                <figcaption>Check out the Joshua trees!</figcaption>
+            </figure>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/four-wheeling-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/four-wheeling-medium.webp.webp" media="(max-width100px)">
+                    <img loading="lazy" src="images/four-wheeling.webp" alt="Man four wheeling in the desert." width="800" height="400">
+                </picture>
+                <figcaption>There's miles and miles of great 4-wheeling!</figcaption>
+            </figure>
+            <figure class="zoom">
+                <picture>
+                    <source srcset="images/hiking-trail-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hiking-trail-medium.webp.webp" media="(max-width100px)">
+                    <img loading="lazy" src="images/hiking-trail.webp" alt="Hiking trail in the desert." width="800" height="400">
+                </picture>
+                <figcaption>Hike the trails through the beautiful landscape.</figcaption>
+            </figure>
+        </section>
+        
+    </main>
+    <footer>
+        <p id="copyright-date">&copy; 2024 Randi Umphrey - BYUI WDD 230 Chamber of Commerce Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/visit-date.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>

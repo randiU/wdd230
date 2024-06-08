@@ -12,6 +12,7 @@ body {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 body {
@@ -30,6 +31,7 @@ header {
 
 main {
    grid-column: 2/12;
+   grid-template-columns: repeat(12, 1fr);
 }
 
 #welcome-message {
@@ -207,3 +209,68 @@ h3 {
     grid-column: 11/12;
     margin-top:2rem;
   }
+
+  .sidebar {
+    grid-column: 1/4;
+    
+    border-radius: 10px;
+    padding: 1rem;
+    border: 5px solid var(--red);  
+  }
+
+  .image-gallery {
+    grid-column: 4/13;
+  }
+
+  .image-gallery img {
+    border-radius: 10px;
+  }
+
+  figure {
+    width: 100%;
+    margin: 0;
+  }
+
+  figcaption {
+    margin-bottom: 1rem;
+  }
+
+ .zoom {
+    transition: none;
+ }
+
+ .last-visit {
+    grid-column: 1/13;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0;
+ }
+
+ #discovery-header {
+    grid-column: 1/13;
+    text-align: center;
+    font-family: var(--primary-font);
+    background-color: var(--red);
+    border-radius: 10px;
+    color: var(--off-white) !important;
+    padding: 1rem;
+ }
+
+ .image-gallery h2 {
+    text-align: center;
+    background-color: #6C0345;
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--off-white);
+    font-family: var(--primary-font);
+ }
+
+ .sidebar h2 {
+    font-family: var(--primary-font);
+    color: var(--red);
+ }
+
+ figcaption {
+    font-family: var(--secondary-font);
+    margin-top: .5rem;
+ }

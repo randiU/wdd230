@@ -1,0 +1,36 @@
+table {
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: .5px solid lightgray;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E6E7E8;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+}
+
+.title-name {
+    background-color: #081351;
+    color: white;
+    border-bottom: none;
+}
+
+.blank-cell {
+    background-color: #081351;
+    border-top: none;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: .6rem;
+    margin-top: .6rem;
+}

@@ -1,0 +1,94 @@
+
+/* page styling */
+
+:root {
+    --primary-blue: #352CE8; 
+    --black: black;
+    --primary-gray: #F3F3F3;
+    --primary-text: "Barlow", sans-serif;
+    --primary-text-weight: 900;
+    --secondary-text: "Montserrat", sans-serif;
+    --secondary-text-weight: 500;
+}
+
+.wf1 {
+    grid-column: 1/13;
+}
+
+.wf1 label {
+    display: block;
+    padding: .5rem;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"],
+.wf1 input[type="range"] {
+    display: block;
+}
+
+.wf1 legend {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    padding: 0 .5rem;
+    color: var(--primary-blue);
+}
+
+.wf1 fieldset {
+    border: solid 2px black;
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+
+.rating-page h1 {
+    font-family: var(--primary-text);
+    font-weight: var(--primary-text-weight);
+    text-align: center;
+}
+
+.wf1 input[type="submit"]{
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+}
+
+/* email verification */
+
+input[name="email"]:required:valid {
+	background-color: #bed;
+}
+
+input[name="email"]:invalid {
+	background-color: #ffeeee;
+}
+
+/* Range Values */
+
+#range {
+	width: 280px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+    display: block;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 10px;
+	width: 295px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+

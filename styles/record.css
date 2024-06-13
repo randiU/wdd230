@@ -1,0 +1,18 @@
+:root {
+    --primary-blue: #352CE8; 
+    --black: black;
+    --primary-gray: #F3F3F3;
+    --primary-text: "Barlow", sans-serif;
+    --primary-text-weight: 900;
+    --secondary-text: "Montserrat", sans-serif;
+    --secondary-text-weight: 500;
+}
+
+#record-message {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+    text-align: center;
+    grid-column: 1/13;
+    margin-top: 2rem;
+}
+

@@ -41,6 +41,13 @@ main {
     color: var(--red);
 }
 
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation a:visited {
+  color: var(--red);
+}
 
 footer {
     grid-column: 2/12;
@@ -273,4 +280,137 @@ h3 {
  figcaption {
     font-family: var(--secondary-font);
     margin-top: .5rem;
+ }
+
+ /****** Join Page ******/
+
+ .chamber-header {
+    grid-column: 1/13;
+    text-align: center;
+    font-family: var(--primary-font);
+    background-color: var(--red);
+    border-radius: 10px;
+    color: var(--off-white) !important;
+    padding: 1rem;
+ }
+
+ #join-form {
+  grid-column: 1/6;
+ 
+ }
+
+ #join-form fieldset {
+  border: solid 5px var(--red);
+  border-radius: 10px;
+  padding: 1.5rem;
+ }
+
+ #join-form legend {
+  padding-left: .8rem;
+  padding-right: .8rem;
+  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  color: var(--red);
+  font-weight: bold;
+ }
+
+ #join-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+ }
+
+
+
+ #join-form input[type="text"],
+ #join-form input[type="email"],
+ #join-form input[type="tel"] {
+  display: block;
+  width: 80%;
+  border-radius: 6px;
+  border: solid 1.8px var(--red);
+  margin-top: .3rem;
+  height: 25px;
+ }
+
+ .benefits-info {
+  grid-column: 6/13;
+ }
+
+ .benefits-info p, .benefits-info section {
+  padding-left: .6rem;
+  padding-right: .6rem;
+  
+ }
+
+ .benefits-info h2 {
+  text-align: center;
+    font-family: var(--primary-font);
+    background-color: var(--red);
+    border-radius: 10px;
+    color: var(--off-white) !important;
+    padding: 1rem;
+ }
+
+ #join-chamber-message {
+  grid-column: 1/13;
+ }
+
+ #join-form div {
+  font-family: var(--primary-font);
+  color: var(--red);
+  font-weight: bold;
+  margin-bottom: .8rem;
+ }
+
+ #join-form textarea {
+  width: 100%;
+  border-radius: 6px;
+  border: solid 1.8px var(--red);
+  height: 150px;
+ }
+
+ .cost {
+  font-weight: bold;
+  text-decoration: underline;
+ }
+
+ #join-form input[type="radio"] {
+  margin-left: .5rem;
+ }
+ 
+ .form-title {
+  margin-top: 1.5rem;
+ }
+
+ #join-form button {
+  margin-top: 1.2rem;
+  border-radius: 6px;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: var(--red);
+  border: none;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--off-white);
+ }
+
+
+ /***** Thank You Page *****/
+
+ #thank-you-message {
+  grid-column: 1/13;
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+ }
+
+ #return-home {
+  grid-column: 1/13;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;s
  }

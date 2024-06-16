@@ -71,4 +71,15 @@
       .image-gallery h2 {
         margin-top: 0;
       }
+
+
+    /*****Join Page*****/
+    #join-chamber-message {
+        padding: 0 1rem 1rem 1rem;
+        font-size: 1.1rem;
+    }
+
+    .benefits-info p, .benefits-info section {
+        padding-right: 0;
+    }
 }

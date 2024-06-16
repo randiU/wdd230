@@ -8,6 +8,7 @@ const secondaryHeaders = document.getElementsByTagName('h2');
 const thirdHeaders = document.getElementsByTagName('h3');
 const button = document.getElementsByTagName('button')[0];
 const figCaption = document.getElementsByTagName('figcaption');
+const label = document.getElementsByTagName('label');
 
 checkbox.addEventListener('change', function() {
     if (this.checked) {
@@ -34,6 +35,10 @@ checkbox.addEventListener('change', function() {
 
         for (var i = 0; i < figCaption.length; i++) {
             figCaption[i].style.color = "#FFF8DC";
+        }
+
+        for (var i = 0; i < label.length; i++) {
+            label[i].style.color = "#FFF8DC";
         }
 
         button.style.background = "#000000";
@@ -63,6 +68,10 @@ checkbox.addEventListener('change', function() {
 
         for (var i = 0; i < figCaption.length; i++) {
             figCaption[i].style.color = "#000000";
+        }
+
+        for (var i = 0; i < label.length; i++) {
+            label[i].style.color = "#000000";
         }
 
         button.style.background = "#FFF8DC";

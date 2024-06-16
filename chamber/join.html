@@ -47,15 +47,16 @@
             <label>Position*<input type="text" name="position" id="position" pattern="[A-Za-z\s\-]{7,}" required></label>
             <label>Email*<input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required></label>
             <label>Mobile Phone Number<input type="tel" name="phone" id="phone" required></label>
+            <label>Organization/Business Name* <input type="text" name="business-name" id="business-name" required></label>
 
             <div class="form-title">Membership Level</div>
-            <label>Non Profit<input type="radio" name="membership-level" value="np"></label>
-            <label>Bronze<input type="radio" name="membership-level" value="bronze"></label>
-            <label>Silver<input type="radio" name="membership-level" value="silver"></label>
-            <label>Gold<input type="radio" name="membership-level" value="gold"></label>
+            <label>Non Profit<input type="radio" name="membership-level" id="non-profit" value="np"></label>
+            <label>Bronze<input type="radio" name="membership-level" id="bronze" value="bronze"></label>
+            <label>Silver<input type="radio" name="membership-level" id="silver" value="silver"></label>
+            <label>Gold<input type="radio" name="membership-level" id="gold" value="gold"></label>
             
             <div class="form-title">Organization/Business Description:</div>
-            <textarea type="text" name="comment" id="join">Enter description here....</textarea>
+            <textarea name="comment" id="join">Enter description here....</textarea>
             
             <input type="hidden" name="date" id="date" value="">
             <button type="submit" value="Join Chamber">Join Chamber</button>

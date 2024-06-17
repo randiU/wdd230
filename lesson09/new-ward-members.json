@@ -1,0 +1,31 @@
+{
+    "wardInformation": {
+        "familyName": "Peters",
+        "moveInDate": "2024-03-05",
+        "numberOfPeople": 4,
+        "visitedBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Joe Peters",
+                "gender": "Male",
+                "birthdate": "1985-04-10"
+            },
+            {
+                "name": "Jane Peters",
+                "gender": "Female",
+                "birthdate": "1984-05-22"
+            },
+            {
+                "name": "Bobby Peters",
+                "gender": "Male",
+                "birthdate": "2010-02-15"
+            },
+            {
+                "name": "Patty Peters",
+                "gender": "Female",
+                "birthdate": "2013-12-10"
+            }
+    
+        ]
+    }
+}

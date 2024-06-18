@@ -1,0 +1,56 @@
+body {
+    --primary-blue: #352CE8; 
+    --black: black;
+    --primary-gray: #F3F3F3;
+    --primary-text: "Barlow", sans-serif;
+    --primary-text-weight: 900;
+    --secondary-text: "Montserrat", sans-serif;
+    --secondary-text-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+}
+
+#cards {
+    padding: 1rem;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    text-align: center;
+    background-color: var(--primary-gray);
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--primary-text);
+    font-weight: var(--primary-text-weight);
+    padding: 1rem;;
+}
+
+h2 {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight);
+}
+
+

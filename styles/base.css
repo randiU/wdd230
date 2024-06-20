@@ -8,6 +8,7 @@ body {
     --primary-text-weight: 900;
     --secondary-text: "Montserrat", sans-serif;
     --secondary-text-weight: 500;
+    --secondary-text-weight-heavy: 700;
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -194,3 +195,26 @@ footer {
     font-family: var(--secondary-text);
     font-weight: var(--secondary-text-weight);
 }
+
+/***Assignment List***/
+
+#link-list {
+    padding: 1rem;
+    text-align: center;
+}
+
+#link-list section h4 {
+    font-family: var(--secondary-text);
+    font-weight: var(--secondary-text-weight-heavy);
+    margin: 0;
+}
+
+#link-list section ul {
+    margin: 0;
+    padding: .7rem;
+}
+
+#link-list section ul li {
+    padding: .2rem;
+}
+

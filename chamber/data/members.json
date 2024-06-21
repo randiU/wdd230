@@ -1,0 +1,61 @@
+{
+    "members": [
+        {
+            "name": "Boron Aerospace Museum",
+            "address": "26922 Twenty Mule Team Rd, Boron, CA 93516",
+            "phoneNumber": "442-247-6781",
+            "url": "https://boronaerospacemuseum.org/",
+            "image": "images/boron-aerospace-museum.webp",
+            "level": "Gold"
+        },
+        {
+            "name": "Love's Travel Stop",
+            "address": "27201 Boron Frontage Rd N, Boron, CA 93516",
+            "phoneNumber": "661-385-6020",
+            "url": "https://www.loves.com/locations/755",
+            "image": "images/loves.webp",
+            "level": "Silver"
+        },
+        {
+            "name": "Twenty Mule Cafe",
+            "address": "26979 Twenty Mule Team Rd, Boron, CA 93516",
+            "phoneNumber": "760-762-5000",
+            "url": "https://www.zmenu.com/20-mule-cafe-boron-online-menu/",
+            "image": "images/20-mule-cafe.webp",
+            "level": "Silver"
+        },
+        {
+            "name": "Andy's Pizza",
+            "address": "24237 Twenty Mule Team Rd, Boron, CA 93516",
+            "phoneNumber": "760-762-5289",
+            "url": "http://places.singleplatform.com/andys-pizza-22/menu?ref=google",
+            "image": "images/andys-pizza.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "Family Dollar",
+            "address": "26645 Twenty Mule Team Rd, Boron, CA 93516",
+            "phoneNumber": "760-491-1841",
+            "url": "https://www.familydollar.com/locations/ca/boron/31432/",
+            "image": "images/family-dollar.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "Kern County Fire Station 87",
+            "address": "26965 Cote St, Boron, CA 93516",
+            "phoneNumber": "760-765-6167",
+            "url": "http://kerncountyfire.org/",
+            "image": "images/fire-station.webp",
+            "level": "Non Profit"
+        },
+        {
+            "name": "Stater Bros. Market",
+            "address": "16920 CA-14, Mojave, CA 93501",
+            "phoneNumber": "661-824-2719",
+            "url": "https://www.staterbros.com/stores/102/",
+            "image": "images/stater-bros.webp",
+            "level": "Gold"
+        }
+
+    ]
+}

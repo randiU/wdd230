@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boron Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Chamber of Commerce website for Boron California. Created for WDD 230 course.">
+    <meta name="author" content="Randi Umphrey">
+    <meta property="og:title" content="WDD 230 Chamber of Commerce Website Assignment">
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://borates.today/storage/2021/11/Boron-in-California.jpg"> 
+    <meta property="og:url" content="https://randiu.github.io/wdd230/chamber">
+</head>
+<body>
+    <label class="switch">
+        <input type="checkbox" id="dark-mode-switch" aria-label="Switch for dark mode.">
+        <span class="slider round"></span>
+    </label>
+    <header>
+        <picture id="logo">
+            <source srcset="images/boron-logo-small.webp" media="(max-width: 500px)">
+            <source srcset="images/boron-logo-medium.webp" media="(max-width: 1000px)">
+            <img src="images/boron-logo-01.webp" alt="Boron logo">
+        </picture>
+        <button id="menu" aria-label="Menu Button"></button>
+    </header>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discovery</a>
+        <a>Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+    <main>
+        
+    </main>
+    <footer>
+        <p id="copyright-date">&copy; 2024 Randi Umphrey - BYUI WDD 230 Chamber of Commerce Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

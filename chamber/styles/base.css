@@ -53,6 +53,7 @@ main {
 footer {
     grid-column: 2/12;
     font-family: var(--secondary-font);
+    margin-top: 1.6rem;
 }
 
 #logo {
@@ -285,7 +286,7 @@ h3 {
 
  /****** Join Page ******/
 
- .chamber-header {
+ .chamber-header, #directory-header {
     grid-column: 1/13;
     text-align: center;
     font-family: var(--primary-font);
@@ -415,3 +416,102 @@ h3 {
   font-family: var(--secondary-font);
   font-size: 1.2rem;
  }
+
+
+ /**** Directory ****/
+
+#directory-message {
+  grid-column: 1/13;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-family: var(--secondary-font);
+}
+
+#member-directory h2 {
+  grid-column: 1/13;
+  text-align: center;
+  font-family: var(--primary-font);
+  background-color: var(--red);
+  border-radius: 10px;
+  color: var(--off-white) !important;
+  padding: 1rem;
+}
+
+.directory-menu {
+  grid-column: 1/13;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.directory-menu button {
+  background-color: var(--red);
+  border: none;
+  padding: .5rem .8rem;
+  width: 100px;
+  border-radius: 6px;
+  font-family: var(--primary-font);
+  color: var(--off-white);
+  font-weight: bold;
+  box-shadow: 5px 5px 8px rgb(106, 105, 105);
+  margin: .7rem;
+}
+
+#member-directory {
+  grid-column: 1/13;
+  margin-top: 1.7rem;
+}
+
+#member-directory h3 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+#member-directory p {
+  font-family: var(--secondary-font);
+}
+
+#member-directory a {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.grid h2 {
+  grid-column: 1/13;
+}
+
+.grid h3 {
+  text-align: center;
+}
+
+.grid img {
+  border-radius: 6px;
+}
+
+.grid section {
+  padding: 3rem 1rem 3rem 1rem;
+  height: 350px;
+  border: solid 5px #6C0345;
+  border-radius: 10px;
+}
+
+.list img {
+  display: none;
+}
+
+.list section {
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 1rem 1rem 2rem 1rem;
+  border: solid 5px #6C0345;
+  border-radius: 10px;
+}
+
+
+

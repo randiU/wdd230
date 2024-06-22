@@ -34,11 +34,15 @@ async function getLinks() {
         website.setAttribute('target', "_blank");
         website.textContent = `${member.name} website`;
 
+        let level = document.createElement('p');
+        level.textContent = `Membership Level: ${member.level}`;
+
         //Adds information to the section
         memberSection.appendChild(image);
         memberSection.appendChild(memberTitle);
         memberSection.appendChild(address);
         memberSection.appendChild(phoneNumber);
+        memberSection.appendChild(level);
         memberSection.appendChild(website);
 
         //Adds the new section to the container element

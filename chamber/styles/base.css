@@ -506,10 +506,9 @@ h3 {
 }
 
 .list section {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
   padding: 1rem 1rem 2rem 1rem;
-  border: solid 5px #6C0345;
   border-radius: 10px;
 }
 

@@ -24,7 +24,6 @@ async function getLinks() {
 
         
         week.links.forEach((link) => {
-            console.log(link);
             let listItem = document.createElement('li');
             let anchorTag = document.createElement('a');
             

@@ -218,3 +218,17 @@ footer {
     padding: .2rem;
 }
 
+/****Weather Info****/
+
+#weather-icon {
+    height: 10%;
+    width: 10%;
+}
+#weather-container {
+    display: flex;
+    justify-content: center;
+}
+
+#weather-icon, #weather-temp, #weather-desc {
+    padding: .3rem;
+}

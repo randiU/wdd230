@@ -36,11 +36,16 @@
         <a href="directory.html">Directory</a>
         <a href="join.html">Join</a>
     </nav>
+    <div id="meet-and-greet-banner" class="close-banner">
+        <h1>Join Us!</h1>
+        <p>We will be holding a meet and greet this Wednesday at 7:00 PM at the local Post Office.</p>
+        <button id="exit-banner">❌</button>
+    </div>
     <main>
         <picture id="main-image">
-            <source srcset="images/week-6-img-small.webp" media="(max-width: 500px)">
-            <source srcset="images/week-6-img-medium.webp" media="(max-width: 1000px)">
-            <img src="images/week-6-img-large.webp" alt="People talking around a table.">
+            <source srcset="images/hero-image-small.webp" media="(max-width: 500px)">
+            <source srcset="images/hero-image-medium.webp" media="(max-width: 1000px)">
+            <img src="images/hero-image-large.webp" alt="People talking around a table.">
         </picture>
         <h1 id="welcome-message">Welcome to the Boron Chamber of Commerce!</h1>
         <section id="weather">
@@ -51,9 +56,14 @@
                 <img src="images/blue-sky-large.webp" alt="Picturey of sky with clouds.">
             </picture>
             <h3>Weather Information</h3>
-            <p>Temperature: <span id="temperature">110</span><span>&deg; F</span></p>
-            <p>Wind Speed: <span id="wind-speed">15</span><span>mph</span></p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+            <p>Current Temperature: <span id="temperature">110</span></p>
+            <p>Weather Description: <span id="weather-desc"></span></p>
+            <div>
+                <h3>3 Day Forecast</h3>
+                <p id="day-one">Information</p>
+                <p id="day-two">Information</p>
+                <p id="day-three">Information</p>
+            </div>
 
             
         </section>
@@ -65,7 +75,9 @@
                 <img src="images/20-mule-team-borax-large.webp" alt="Box of 20 Mule Team Borox">
             </picture>
             <h3>20 Mule Team Borax</h3>
-            <p>The power of Borax works just as hard as the heritage of its mule team, cleaning deep to tackle your toughest mess.</p>
+            <p>20 Mule Team Borax is a renowned brand offering a versatile and natural cleaning solution. Originating in the late 1800s, it was named after the 20-mule teams that transported borax from Death Valley.</p>
+            <h4>Why Choose 20 Mule Team Borax?</h4>
+            <p>It's a trusted, effective, and environmentally friendly option for a variety of household cleaning needs.</p>
         </section>
         <section id="call-to-action">
             <h2>Join Us!</h2>
@@ -75,7 +87,7 @@
                 <img src="images/boron.webp" alt="Sign in Boron California">
             </picture>
             <h3>We'd Love to Have You!</h3>
-            <p>Join the Boron Chamber of Commerce to work grow and better our small community!</p>
+            <p>Joining the Boron Chamber of Commerce offers valuable networking opportunities, business growth resources, and increased visibility through events and marketing. Members contribute to community initiatives that boost the local economy and benefit from collective advocacy on important issues.</p>
         </section>
         <section id="current-events">
             <h2>Current Events</h2>
@@ -95,6 +107,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/closeBanner.js"></script>
 </body>
 </html>

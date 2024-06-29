@@ -9,6 +9,7 @@ const thirdHeaders = document.getElementsByTagName('h3');
 const button = document.getElementsByTagName('button')[0];
 const figCaption = document.getElementsByTagName('figcaption');
 const label = document.getElementsByTagName('label');
+const fourthHeaders = document.getElementsByTagName('h4');
 
 checkbox.addEventListener('change', function() {
     if (this.checked) {
@@ -31,6 +32,10 @@ checkbox.addEventListener('change', function() {
 
         for (var i = 0; i < thirdHeaders.length; i++) {
             thirdHeaders[i].style.color = "#FFF8DC";
+        }
+
+        for (var i = 0; i < fourthHeaders.length; i++) {
+            fourthHeaders[i].style.color = "#FFF8DC";
         }
 
         for (var i = 0; i < figCaption.length; i++) {
@@ -64,6 +69,10 @@ checkbox.addEventListener('change', function() {
 
         for (var i = 0; i < thirdHeaders.length; i++) {
             thirdHeaders[i].style.color = "#000000";
+        }
+
+        for (var i = 0; i < fourthHeaders.length; i++) {
+            fourthHeaders[i].style.color = "#000000";
         }
 
         for (var i = 0; i < figCaption.length; i++) {

@@ -42,8 +42,8 @@
        <form method="get" action="thankyou.html" class="join-form" id="join-form">
         <fieldset>
             <legend>Applicant Information</legend>
-            <label>First Name*<input type="text" name="fname"></label>
-            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>First Name*<input type="text" name="fname" id="first-name" required></label>
+            <label>Last Name*<input type="text" name="lname" id="last-name"></label>
             <label>Position*<input type="text" name="position" id="position" pattern="[A-Za-z\s\-]{7,}" required></label>
             <label>Email*<input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required></label>
             <label>Mobile Phone Number<input type="tel" name="phone" id="phone" required></label>
@@ -68,14 +68,14 @@
        <aside class="benefits-info">
         <h2>Membership Benefits</h2>
         <p>Our memberships vary based off of benefits and services offered to members.</p>
-        <section id="non-profit">
+        <section>
             <h3>Non Profit</h3>
             <p class="cost">Cost: Free</p>
             <p><b>Basic Listing:</b> Company name in the online directory.</p>
             <p><b>Limited Event Access:</b> Attend some events, often pay-per-event.</p>
             <p><b>Newsletters:</b> Receive basic Chamber communications.</p>
         </section>
-        <section id="bronze">
+        <section>
             <h3>Bronze Level</h3>
             <p class="cost">Cost: $120 Annually</p>
             <p><b>Enhanced Listing:</b> Contact info and brief description in the directory.</p>
@@ -83,7 +83,7 @@
             <p><b>Networking:</b> Invitations to networking events.</p>
             <p><b>Basic Support:</b>Basic Support: Access to educational resources and consulting.</p>
         </section>
-        <section id="silver">
+        <section>
             <h3>Silver Level</h3>
             <p class="cost">Cost: $250 Annually</p>
             <p><b>Premium Listing:</b> Logo, website link, and social media in the directory.</p>
@@ -92,7 +92,7 @@
             <p><b>Sponsorships:</b> Discounted sponsorship opportunities.</p>
             <p><b>Advanced Support:</b> Comprehensive business support services.</p>
         </section>
-        <section id="gold">
+        <section>
             <h3>Gold Level</h3>
             <p class="cost">Cost: $600 Annually</p>
             <p><b>Top-Tier Listing:</b> Detailed profile with multimedia in the directory.</p>

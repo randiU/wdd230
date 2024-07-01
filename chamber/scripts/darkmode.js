@@ -10,13 +10,11 @@ const button = document.getElementsByTagName('button')[0];
 const figCaption = document.getElementsByTagName('figcaption');
 const label = document.getElementsByTagName('label');
 const fourthHeaders = document.getElementsByTagName('h4');
+const bannerText = document.getElementsByClassName('banner-text');
 
 checkbox.addEventListener('change', function() {
     if (this.checked) {
-        console.log("checked");
         body.style.background = "#000000";
-        console.log(text);
-
         for (var i = 0; i < text.length; i++) {
             text[i].style.color = "#FFF8DC";
         }
@@ -50,7 +48,6 @@ checkbox.addEventListener('change', function() {
 
 
     } else {
-        console.log('not checked');
         body.style.background = "#FFF8DC";
 
         for (var i = 0; i < text.length; i++) {
@@ -81,6 +78,10 @@ checkbox.addEventListener('change', function() {
 
         for (var i = 0; i < label.length; i++) {
             label[i].style.color = "#000000";
+        }
+
+        for (var i = 0; i < bannerText.length; i++) {
+            bannerText[i].style.color = "#FFF8DC";
         }
 
         button.style.background = "#FFF8DC";

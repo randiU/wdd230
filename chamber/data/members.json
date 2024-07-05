@@ -6,7 +6,9 @@
             "phoneNumber": "442-247-6781",
             "url": "https://boronaerospacemuseum.org/",
             "image": "images/boron-aerospace-museum.webp",
-            "level": "Gold"
+            "level": "Gold",
+            "description": "Since the 1940s the town of Boron has served as the approach corridor for experimental and military aircraft landing on the runways of Edwards Air Force Base. Our unique geographic location has earned Boron the title of the “Northern Gateway to the Aerospace Valley”.",
+            "cta": "We need your support to keep the love of areospace in the Boron Valley alive. Come visit today!"
         },
         {
             "name": "Love's Travel Stop",
@@ -14,7 +16,9 @@
             "phoneNumber": "661-385-6020",
             "url": "https://www.loves.com/locations/755",
             "image": "images/loves.webp",
-            "level": "Silver"
+            "level": "Silver",
+            "description": " Loves provides professional truck drivers and motorists with 24-hour access to clean and safe places to purchase gasoline, diesel fuel, fresh coffee, restaurant offerings and more. Loves has over 430 truck service centers, which include Speedco and Loves Truck Care locations.",
+            "cta": "Come on in and experience the nation's leading travel stop! Quality snacks and premium gasoline is just a quick drive away!"
         },
         {
             "name": "Twenty Mule Cafe",
@@ -22,7 +26,9 @@
             "phoneNumber": "760-762-5000",
             "url": "https://www.zmenu.com/20-mule-cafe-boron-online-menu/",
             "image": "images/20-mule-cafe.webp",
-            "level": "Silver"
+            "level": "Silver",
+            "description": "The Twenty Mule Cafe has been a staple in Boron for decades and we never disappoint! Come on in for some great American and Mexican food.",
+            "cta": "You'll find the best tasting food in Boron. Just stop by and you'll see why!"
         },
         {
             "name": "Andy's Pizza",
@@ -30,7 +36,9 @@
             "phoneNumber": "760-762-5289",
             "url": "http://places.singleplatform.com/andys-pizza-22/menu?ref=google",
             "image": "images/andys-pizza.webp",
-            "level": "Bronze"
+            "level": "Bronze",
+            "description": "Andy's Pizza is alive and doing well! Don't judge a book by its cover. Our building is old and looks like we aren't open but we most definitely are!",
+            "cta": "You have to try the best pizza in Boron! (We're the only pizza in Boron)."
         },
         {
             "name": "Family Dollar",
@@ -38,7 +46,9 @@
             "phoneNumber": "760-491-1841",
             "url": "https://www.familydollar.com/locations/ca/boron/31432/",
             "image": "images/family-dollar.webp",
-            "level": "Bronze"
+            "level": "Bronze",
+            "description": "Save big on household necessities and more at your local Family Dollar. From discount groceries to hygiene products and apparel, no other dollar store offers this kind of variety and value.",
+            "cta": "Shop now for top personal care items from Crest, Listerine, Dove, Degree, and Gillette. And did you know Family Dollar also carries trendy apparel? Come on in today!"
         },
         {
             "name": "Kern Fire Station",
@@ -46,7 +56,9 @@
             "phoneNumber": "760-765-6167",
             "url": "http://kerncountyfire.org/",
             "image": "images/fire-station.webp",
-            "level": "Non Profit"
+            "level": "Non Profit",
+            "description": "Proudly serving the Boron and Antelope Valley for decades. We pride ourselves in the services we provide our small town and we promise to you keep you safe!",
+            "cta": "We need donations!"
         },
         {
             "name": "Stater Bros. Market",
@@ -54,7 +66,9 @@
             "phoneNumber": "661-824-2719",
             "url": "https://www.staterbros.com/stores/102/",
             "image": "images/stater-bros.webp",
-            "level": "Gold"
+            "level": "Gold",
+            "description": "Stater Bros. is rooted in the American tradition and proudly celebrates a rich legacy of service to this great nation. Tracing its beginnings back to a small grocery store in Yucaipa, CA.",
+            "cta": "Come in and find exactly what you are looking for!"
         }
 
     ]

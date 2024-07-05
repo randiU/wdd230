@@ -31,7 +31,9 @@ function randomizeMemberAndDisplay() {
     businessImg.setAttribute('src', membersDisplayed[randomNum].image);
     businessName.textContent = membersDisplayed[randomNum].name;
     businessDesc.textContent = membersDisplayed[randomNum].description;
-    console.log(membersDisplayed[randomNum].address);
+    businessWhy.textContent = `Why Choose ${membersDisplayed[randomNum].name}?`;
+    businessWhyAnswered.textContent = membersDisplayed[randomNum].cta;
+    
   }
 
 getLinks();

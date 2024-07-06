@@ -180,6 +180,26 @@ h3, h4 {
     border-bottom-right-radius: 15px;
 }
 
+#join-button {
+  background-color: var(--red);
+  color: var(--off-white);
+  font-family: var(--primary-font);
+  font-weight: bold;
+  border: none;
+  padding: .8rem;
+  border-radius: 6px;
+  margin-top: .5rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 50%;
+  box-shadow: 5px 5px 8px rgb(106, 105, 105);
+}
+
+#current-events {
+  margin-top: 2rem;
+}
+
 
 /* The switch - the box around the slider */
 .switch {

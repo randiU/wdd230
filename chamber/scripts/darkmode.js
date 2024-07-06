@@ -11,6 +11,7 @@ const figCaption = document.getElementsByTagName('figcaption');
 const label = document.getElementsByTagName('label');
 const fourthHeaders = document.getElementsByTagName('h4');
 const bannerText = document.getElementsByClassName('banner-text');
+const joinButton = document.getElementById('join-button');
 
 checkbox.addEventListener('change', function() {
     if (this.checked) {
@@ -85,5 +86,6 @@ checkbox.addEventListener('change', function() {
         }
 
         button.style.background = "#FFF8DC";
+        joinButton.style.color = "#FFF8DC";
     }
 });

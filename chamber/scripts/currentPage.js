@@ -5,14 +5,15 @@ const directory = document.getElementById('directory-page');
 const join = document.getElementById('join-page');
 
 function addUnderlineToCurrentPageNav() {
-    if (currentURL.search("discover")){
-       discovery.style.textDecoration = "underline";
-       console.log('discover');
-    } else {
-        discovery.style.textDecoration = "none";
+    if (currentURL.search("index") >= 0){
+       index.style.textDecoration = "underline";
+    } else if (currentURL.search("discover") >= 0){
+        discovery.style.textDecoration = "underline";
+    } else if (currentURL.search("directory") >= 0){
+        directory.style.textDecoration = "underline";
+    } else if (currentURL.search(join) >= 0){
+        join.style.textDecoration = "underline";
     }
 }
 
 addUnderlineToCurrentPageNav();
-
-console.log(currentURL);

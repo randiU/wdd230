@@ -23,6 +23,3 @@ if (lastVisit == 0) {
 }
 
 localStorage.setItem('last-visit', today);
-console.log(today);
-console.log(lastVisit);
-console.log(lastVisit - today);

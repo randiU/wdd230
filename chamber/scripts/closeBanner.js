@@ -6,8 +6,6 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 const d = new Date();
 let day = weekday[d.getDay()];
 
-console.log(day);
-
 exitButton.addEventListener('click', () => {
     banner.classList.remove('open-banner');
     banner.classList.add('close-banner');

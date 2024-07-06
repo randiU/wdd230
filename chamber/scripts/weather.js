@@ -12,7 +12,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayWeatherData(data);
         } else {
             throw Error(await response.text());
@@ -33,8 +32,6 @@ function displayWeatherData(data){
     }
     desc = words.join(" ");
     weatherDesc.innerHTML = ` ${desc}`;
-    console.log(weatherDesc);
-
     getDateText(data);
 }
 

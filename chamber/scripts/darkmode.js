@@ -12,6 +12,7 @@ const label = document.getElementsByTagName('label');
 const fourthHeaders = document.getElementsByTagName('h4');
 const bannerText = document.getElementsByClassName('banner-text');
 const joinButton = document.getElementById('join-button');
+const header = document.getElementsByTagName('header');
 
 checkbox.addEventListener('change', function() {
     if (this.checked) {

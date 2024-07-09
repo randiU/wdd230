@@ -32,10 +32,10 @@ function displayWeatherData(data){
     }
     desc = words.join(" ");
     weatherDesc.innerHTML = ` ${desc}`;
-    getDateText(data);
+    getDateInfo(data);
 }
 
-function getDateText(date){
+function getDateInfo(date){
     const months = ["January","February","March","April","May","June","July","August","Septemer","October","November","December"]
 
     const dayOneText = new Date(date.list[7].dt_txt);
@@ -46,10 +46,25 @@ function getDateText(date){
     const dayTwoMonth = dayTwoText.getMonth();
     const dayThreeMonth = dayThreeText.getMonth();
 
+    let dayOneDesc = date.list[7].weather[0].description;
+    let dayTwoDesc = date.list[15].weather[0].description;
+    let dayThreeDesc = date.list[23].weather[0].description;
 
-    dayOneInfo.innerHTML = `${months[dayOneMonth]} ${date.list[7].dt_txt.slice(8,10)}: ${Math.trunc(date.list[7].main.temp)}&deg;F`;
+    function capitalizeWords(string){
+        words = string.split(" ");
+        for (let i = 0; i < words.length; i++) {
+            words[i] = words[i][0].toUpperCase() + words[i].substring(1);
+        }
+        return words.join(" ");
+    }
+
+    dayOneDesc = capitalizeWords(dayOneDesc);
+    dayTwoDesc = capitalizeWords(dayTwoDesc);
+    dayThreeDesc = capitalizeWords(dayThreeDesc);
+
+    dayOneInfo.innerHTML = `${months[dayOneMonth]} ${date.list[7].dt_txt.slice(8,10)} - ${Math.trunc(date.list[7].main.temp)}&deg;F | ${dayOneDesc}`;
   
-    dayTwoInfo.innerHTML = `${months[dayTwoMonth]} ${date.list[15].dt_txt.slice(8,10)}: ${Math.trunc(date.list[15].main.temp)}&deg;F`;
+    dayTwoInfo.innerHTML = `${months[dayTwoMonth]} ${date.list[15].dt_txt.slice(8,10)} - ${Math.trunc(date.list[15].main.temp)}&deg;F | ${dayTwoDesc}`;
 
-    dayThreeInfo.innerHTML = `${months[dayThreeMonth]} ${date.list[23].dt_txt.slice(8,10)}: ${Math.trunc(date.list[23].main.temp)}&deg;F`;    
+    dayThreeInfo.innerHTML = `${months[dayThreeMonth]} ${date.list[23].dt_txt.slice(8,10)} - ${Math.trunc(date.list[23].main.temp)}&deg;F | ${dayThreeDesc}`;    
 }

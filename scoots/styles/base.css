@@ -1,0 +1,132 @@
+body {
+    --primary-font: "Open Sans", sans-serif;
+    --secondary-font: "Kanit", sans-serif;
+    --blue: #123FE1;
+    --black: #1D1E21;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    grid-column: 2/3;
+    margin-top: 2rem;
+}
+
+nav {
+    display: flex;
+    grid-column: 6/12;
+    padding-top: 11%;
+    justify-content: space-evenly;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--black)
+}
+
+main {
+    grid-column: 2/12;
+    display: grid!important;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 1.5rem;
+}
+
+#hero-image img {
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+#hero-text-container {
+    grid-column: 1/11;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#hero-text-container p {
+    position: absolute;
+    top: 20%;
+    font-family: var(--primary-font);
+    font-weight: 1000;
+    font-size: 3rem;
+    grid-column: 2/6;
+    text-align: left;
+}
+
+#hero-text-container picture {
+    grid-column: 1/13;
+}
+
+#welcome-message {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    grid-column: 2/10;
+    margin-top: 1rem;
+}
+
+#welcome-message p {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+#welcome-message button, #location-info button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+#playa-location {
+    grid-column: 2/6;
+    margin-top: 5rem;
+}
+
+#puerta-maya-location {
+    grid-column: 6/10;
+    margin-top: 5rem;
+}
+
+#playa-location img, #puerta-maya-location img {
+    border-radius: 10px;
+}
+
+figcaption {
+    font-family: var(--primary-font);
+    padding-top: .7rem;
+    padding-left: 15px;
+}
+
+#location-info {
+    grid-column: 2/10;
+    padding-top: 1.5rem;
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 650;
+}
+
+#location-info p {
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+#home-rental-images {
+    grid-column: 2/10;
+    display: flex;
+}

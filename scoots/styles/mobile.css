@@ -1,0 +1,82 @@
+@media screen and (max-width: 820px) {
+
+    /***Home page****/
+    
+    nav {
+        display: none;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        background-color: var(--off-white);
+        border: none;
+        font-size: 1.5rem;
+        grid-column: 10/11;
+    }
+
+    #menu::before {
+        content: "☰"; 
+        color: #1D1E21;
+    }
+
+    #menu.open::before {
+        content: "❌";
+    }
+
+    header {
+        grid-column: 2/10;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    #logo {
+        grid-column: 1/4;
+    }
+
+    #hero-text-container p{
+        display: none;
+    }
+
+    #playa-location {
+        grid-column: 2/10;
+    }
+
+    #puerta-maya-location {
+        grid-column: 2/10;
+        margin-top: .8rem;
+    }
+
+    #location-info {
+        padding-top: .2rem;
+    }
+
+    #home-rental-images {
+        display: block;
+    }
+
+    #rental-description {
+        margin-top: 0;
+    }
+
+    #weather-cards {
+        grid-column: 2/10;
+    }
+
+    #weather-card {
+        width: 100%;
+    }
+
+    #home-rental-images div{
+        grid-column: 2/10;
+    }
+
+    #weather-text-info {
+        grid-column: 2/10;
+        margin-top: .5rem;
+    }
+
+}

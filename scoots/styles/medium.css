@@ -1,0 +1,19 @@
+@media screen and (max-width: 1110px) {
+    #hero-text-container p {
+        font-size: 2rem;
+    }
+
+    nav {
+        padding-top: 15%;
+        font-size: 1rem;
+        grid-column: 5/10;
+    }
+
+    #weather-cards {
+        grid-column: 2/6;
+    }
+
+    #weather-text-info {
+        grid-column: 6/10;
+    }
+}

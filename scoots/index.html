@@ -7,6 +7,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <meta name="description" content="Scoots is a motor vehicle rental company located in Cozumel Mexico. Rentals include motor scooters, ATVs, and Jeeps.">
     <meta name="author" content="Randi Umphrey">
     <meta property="og:title" content="Scoots motor vehicle rental company website.">
@@ -27,6 +28,10 @@
     </nav>
     <div id="temp-warning"></div>
     <main>
+        <div id="weather-banner">
+            <p id="banner-temp-info">High temp max for the day:</p>
+            <button id="exit-banner">&times;</button>
+        </div>
         <div id="hero-text-container">
             <picture id="hero-image">
                 <img src="images/hero-image-large.webp" alt="Woman next to scooter holding helmet.">
@@ -41,36 +46,79 @@
         <div id="playa-location">
             <picture>
                 <img src="images/scoots-location-1-logo.webp" alt="Scoots Playa Del Carmen-Cozumel store location.">
-                <figcaption>Playa del Carmen-Cozumel</figcaption>
             </picture>
+            <p>Playa del Carmen-Cozumel</p>
         </div>
         <div id="puerta-maya-location">
             <picture>
                 <img src="images/scoots-location-2-update.webp" alt="Scoots Puerta Maya store location.">
-                <figcaption>Terminal Puerta Maya</figcaption>
             </picture>
+            <p>Terminal Puerta Maya</p>
         </div>
         <section id="location-info">
             <h2>We have two wonderful locations to check out.</h2>
             <p>Our first location is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel. Our second location is near the Terminal Puerta Maya further south along the coast - a great location for our customers who are porting from their cruise.</p>
             <button>View our locations</button>
         </section>
-        <section id="home-rental-images">
-            <picture>
-                <img src="images/honda-metropolitan.webp" alt="Honda Metropolitan Scooter">
-                <figcaption>Honda Motor Scooters</figcaption>
-            </picture>
-            <picture>
-                <img src="images/honda-pioneer.webp" alt="Honda Pioneer ATV">
-                <figcaption>Honda Side By Sides</figcaption>
-            </picture>
-            <picture>
-                <img src="images/4door-jeep.webp" alt="4 Door Jeep Wrangler">
-                <figcaption>Jeep Wranglers</figcaption>
-            </picture>
+        <div id="home-rental-images">
+            <div>
+                <picture>
+                    <img src="images/honda-metropolitan.webp" alt="Honda Metropolitan Scooter">
+                </picture>
+                <p>Honda Motor Scooters</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/honda-pioneer.webp" alt="Honda Pioneer ATV">
+                </picture>
+                <p>Honda Side By Sides</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/4door-jeep.webp" alt="4 Door Jeep Wrangler">
+                </picture>
+                <p>Jeep Wranglers</p>
+            </div>
+        </div>
+        <section id="rental-description">
+            <h2>Our Rentals</h2>
+            <p>Looking for adventure on the open road? Scoots Motor Vehicles has you covered with top-quality rentals! Choose from our reliable motor scooters, rugged ATVs, and iconic Jeep Wranglers to make your journey unforgettable. Rent today and experience the freedom of the ride with Scoots Motor Vehicles! </p>
+            <button>Check out rentals</button>
+        </section>
+        <div id="weather-cards">
+            <div class="weather-card" id="weather-today">
+
+            </div>
+            <div class="weather-card" id="weather-tomorrow">
+
+            </div>
+        </div>
+        <section id="weather-text-info">
+            <h2>Weather Forecast</h2>
+            <p>Planning activities on the island? Be sure to check the weather forecast to ensure the best experience. Stay informed and make the most of your adventure!</p>
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <div id="footer-container">
+            <a id="footer-logo" href="index.html"><img src="images/scoots-logo-12.svg" alt="Scoots Logo" ></a>
+            <div class="break"></div>
+            <ul>
+                <li>555.876.9021</li>
+                <li>info@scootsmotors.com</li>
+            </ul>
+            <div class="break"></div>
+            <div id="social-media-links">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instagram.com">Instagram</a>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/hightemp.js"></script>
+    <script src="scripts/closebanner.js"></script>
 </body>
 </html>

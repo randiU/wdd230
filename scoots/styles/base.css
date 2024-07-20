@@ -276,9 +276,10 @@ footer {
     grid-column: 2/10;
 }
 
-#rental-avail-header {
+#rental-avail-header, #pricing-header {
     text-align: center;
     grid-column: 2/10;
+    font-size: 1.5rem;
 }
 
 .bold {
@@ -307,7 +308,11 @@ footer {
     padding-left: 8px;
 }
 
-#honda-atv-rental-info {
+#honda-atv-rental-info, #jeep-rental-info {
     grid-column: 2/10;
     margin-top: 3.5rem;
+}
+
+#pricing-header {
+    margin-top: 5rem;
 }

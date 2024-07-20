@@ -18,7 +18,7 @@ async function apiFetchToday() {
 
 
 function addBannerText(data) {
-    bannerText.innerHTML = `High temp for today: ${Math.trunc(data.main.temp_max)}&deg`;
+    bannerText.innerHTML = `High temperature for today: ${Math.trunc(data.main.temp_max)}&deg`;
 }
 
 apiFetchToday();

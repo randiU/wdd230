@@ -23,7 +23,7 @@ header {
 nav {
     display: flex;
     grid-column: 6/10;
-    padding-top: 11%;
+    padding-top: 15%;
     justify-content: space-evenly;
     font-family: var(--secondary-font);
     font-weight: bold;

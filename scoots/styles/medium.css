@@ -19,4 +19,10 @@
     #weather-text-info {
         grid-column: 6/10;
     }
+
+    /****Rentals*****/
+
+    #rental-pricing {
+        grid-column: 2/10;
+    }
 }

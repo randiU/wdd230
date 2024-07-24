@@ -30,15 +30,40 @@
         <a>Contact</a>
     </nav>
     <main>
-        <div class="hero-text-container subpage-header">
+        <!--<div class="hero-text-container subpage-header">
             <picture class="hero-image">
-                <img src="images/reservation.webp" alt="Men in jeep by beach.">
+                <img src="images/contact-us.webp" alt="Men in jeep by beach.">
             </picture>
+        </div> -->
+        <section id="contact-us-intro">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! We stive to respond back to any messages or emails within 1 business day. We can be reached by phone, email, or text message.</p>
+        </section>
+        <div id="contact-form-section">
+            <form method="get" action="thanks-contact.html" name="contact-form" id="contact-form">
+                <fieldset>
+                    <legend>Please Fill Out</legend>
+                    <label for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
+                    <label for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
+                    <label for="email">Email*<input type="email" id="email" name="email" required></label>
+                    <div>
+                        <label for="contact-comment">Comments</label>
+                        <textarea name="contact-comment" id="contact-comment"></textarea>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Contact Scoots">
+            </form>
         </div>
-        <div class="center-div">
-            <p>Thank you for reserving your vehicle! You will receive an email confirmation shortly.</p>
-            <a href="index.html">Go to Homepage</a>
+        <div id="scoots-location">
+            <h2>Locations</h2>
+            <iframe id="scoots-map" src="https://www.google.com/maps/d/embed?mid=1ORjjBOtypK_dbacXpeTL4nxQNwnoIhM&ehbc=2E312F&noprof=1" width="400" height="400" loading="lazy"></iframe>
         </div>
+        <section id="scoots-information">
+            <h3>Scoots Contact Information</h3>
+            <p><span class="bold">Phone Number:</span> 555-801-2987</p>
+            <p><span class="bold">Email:</span> info@scootsmototscooters.com</p>
+        </section>
+        
     </main>
     <footer>
         <div id="footer-container">

@@ -481,3 +481,87 @@ legend {
     border-radius: 6px;
 }
 
+
+/****Contact Us*****/
+
+#contact-us-intro {
+    grid-column: 2/10;
+    margin-top: 3rem;
+}
+
+#contact-form-section {
+    grid-column: 2/6;
+    margin-top: 2rem;
+}
+
+#scoots-location {
+    grid-column: 6/10;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+#scoots-information {
+    grid-column: 2/10;
+}
+
+#contact-form {
+    background-color: var(--gray);
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+#contact-form fieldset {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+#contact-form legend {
+    padding-top: 2rem;
+}
+
+#scoots-map{
+    grid-column: 2/6;
+    border: none;
+    border-radius: 10px;
+}
+
+#find-us-header {
+    grid-column: 2/10;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+#contact-form input {
+    display: block;
+    border:none;
+    padding: .3rem;
+    width: 75%;
+    border-radius: 3px;
+}
+
+#contact-form div textarea {
+    display: block;
+    border: none;
+    width: 75%;
+    height: 100px;
+    border-radius: 3px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+    margin-bottom: 1rem;
+}
+
+#contact-form input[type="submit"] {
+    margin-top: 1.2rem;
+    background-color: var(--blue);
+    border: none;
+    padding: .6rem 1.5rem;
+    color: white;
+    font-family: var(--secondary-font);
+    border-radius: 6px;
+    margin-left: 2rem;
+    width: 30%!important;
+    margin-top: -.5rem;
+
+}

@@ -31,4 +31,21 @@
     .rental-agreement-text {
         width: 100%;
     }
+
+    /****Contact****/
+    #contact-us-intro, #contact-form-section, #scoots-location, #scoots-information {
+        grid-column: 2/10;
+    }
+
+    #scoots-location iframe {
+        width: 100%;
+    }
+
+    #scoots-location {
+        padding-left: 0;
+    }
+
+    #contact-form input {
+        width: 80%;
+    }
 }

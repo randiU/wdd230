@@ -25,4 +25,10 @@
     #rental-pricing {
         grid-column: 2/10;
     }
+
+    /***Reservations****/
+
+    .rental-agreement-text {
+        width: 100%;
+    }
 }

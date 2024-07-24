@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/table-small.css">
     <meta name="description" content="Reservation page for Scoots motor scooters located in Cozumel Mexico.">
     <meta name="author" content="Randi Umphrey">
-    <meta property="og:title" content="Scoots motor vehicle rental company website.">
+    <meta property="og:title" content="Scoots motor vehicle reservation page.">
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://images.pexels.com/photos/22845325/pexels-photo-22845325/free-photo-of-motor-scooter-parked-near-building-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"> 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -30,13 +30,79 @@
         <a>Contact</a>
     </nav>
     <main>
-        <div id="hero-text-container">
-            <picture id="hero-image">
-                <img src="images/hero-image-large.webp" alt="Woman next to scooter holding helmet.">
+        <div class="hero-text-container subpage-header">
+            <picture class="hero-image">
+                <img src="images/reservation.webp" alt="Men in jeep by beach.">
             </picture>
-            <p>Explore the island the Scoots way.</p>
         </div>
-       
+        <h1 class="grid-ten">Reservations</h1>
+        <form method="get" action="thanks.html" name="reservationForm" id="reservation-form">
+            <fieldset>
+                <legend>Reserve Vehicle</legend>
+                <label for="fname">First Name*<input type="text" id="fname" name="fname" required></label>
+                <label for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label for="email">Email*<input type="email" id="email" name="email" required></label>
+                <label for="tel">Phone Number*<input type="tel" id="tel" name="tel" required></label>
+                <label for="date">Date* (mm/dd/yyyy)<input type="date" id="date" name="date" required></label>
+                <label for="location">Home State or Country*<input type="text" id="location" name="location" required></label>
+                <label for="cruise">Cruise Line (If Applicable)<input type="text" id="cruise" name="cruise"></label>
+                
+                <div class="form-title bold primary-font">Rental Type</div>
+                <div>
+                    <input type="checkbox" id="metro" name="metro" value="Honda Metropolitan">
+                    <label for="metro">Honda Metropolitan 49cc</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="dio" name="dio" value="Honda Dio">
+                    <label for="dio">Honda Dio 110cc</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pcx" name="pcx" value="Honda PCX">
+                    <label for="pcx">Honda PCX150 149cc</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pioneer" name="pioneer" value="Honda Pioneer">
+                    <label for="pioneer">Honda Pioneer 1000</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="jeep-four-door" name="jeep-four-door" value="Four Door Jeep">
+                    <label for="jeep-four-door">Jeep Wrangler 4 Door</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="jeep-two-door" name="jeep-two-door" value="Two Door Jeep">
+                    <label for="jeep-two-door">Jeep Wrangler 2 Door</label>
+                </div>
+
+                <div class="form-title bold primary-font" id="drop-off-section">Drop Off Request</div>
+                <div>
+                    <input type="checkbox" id="drop-off-request" name="drop-off-request" value="true">
+                    <label for="drop-off-request">Request Special Drop Off</label>
+                </div>
+                <div >
+                    <label for="drop-off-info">Explain Drop Off Request</label>
+                    <textarea name="drop-off-info" id="drop-off-info"></textarea>
+                </div>
+
+                <div>
+                    <p class="form-title bold">Rental Agreement</p>
+                    <p class="rental-agreement-text">A $50 security deposit will be required to confirm reservations. A valid drivers license will be required in hand at the time of rental. No one under the age of 12 years of age is allowed to ride on the scooters. Fuel charge is not included. There is no mileage limit. Liability insurance is included. Damage insurance is available for purchase. There is free delivery to Cozumel hotels or Airbnbs for 2+ day rentals. Rentals must be returned to either physical location before 8:00 PM.      
+                    </p>
+                    <p class="rental-agreement-text">Acceptable Payments: Google Pay, Apply Pay, cash, credit card, debit card, or Venmo 
+                    </p>
+                </div>
+                <div>
+                    <input type="checkbox" id="damage-insurance" name="damage-insurance" value="true">
+                    <label for="damage-insurance">I would like to purchase damage insurance.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" value="true" required>
+                    <label for="terms-and-conditions">I agree to the terms and conditions.*</label>
+                </div>
+    
+            </fieldset>
+            <input type="submit" value="Rent Vehicle(s)">
+            
+        </form>
     </main>
     <footer>
         <div id="footer-container">

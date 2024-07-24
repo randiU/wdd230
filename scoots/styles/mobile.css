@@ -95,4 +95,19 @@
         margin-top: .5rem;
     }
 
+    /****Reservations*****/
+
+    #reservation-form input[type=text], 
+    #reservation-form input[type=email],
+    #reservation-form input[type=tel],
+    #reservation-form input[type=date] {
+        display: block;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    #drop-off-info {
+        width: 100%;
+    }
+
 }

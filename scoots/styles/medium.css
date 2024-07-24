@@ -2,7 +2,7 @@
 
     /****Home Page****/
     
-    #hero-text-container p {
+    .hero-text-container p {
         font-size: 2rem;
     }
 

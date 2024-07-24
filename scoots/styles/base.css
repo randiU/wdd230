@@ -31,6 +31,11 @@ nav {
     color: var(--black)
 }
 
+.navigation a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 main {
     grid-column: 1/11;
     display: grid!important;
@@ -113,6 +118,33 @@ p {
     font-weight: 700;
     margin-top: 1rem;
 }
+
+.button {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: var(--blue);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.half-width-button {
+    width: 50%;
+}
+.large-button {
+    width: 20%;
+}
+
+.medium-button {
+    width: 10%;
+}
+
+
+/*#reservation-form input[type="submit"]*/
 
 h1 {
     font-family: var(--secondary-font);

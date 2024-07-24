@@ -24,10 +24,10 @@
         <button id="menu" aria-label="Menu Button"></button>
     </header>
     <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="rentals.html">Rentals</a>
-        <a href="reservations.html">Reservations</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" id="home-page">Home</a>
+        <a href="rentals.html" id="rentals-page">Rentals</a>
+        <a href="reservations.html" id="reservations-page">Reservations</a>
+        <a href="contact.html" id="contact-page">Contact</a>
     </nav>
     <main>
         <div id="weather-banner">
@@ -38,12 +38,13 @@
             <picture class="hero-image">
                 <img src="images/hero-image-large.webp" alt="Woman next to scooter holding helmet.">
             </picture>
-            <p>Explore the island the Scoots way.</p>
+            <p id="scoots-message">Explore the island the Scoots way.</p>
         </div>
         <section id="welcome-message">
             <h1>Welcome to Scoots!</h1>
             <p>Your ultimate destination for exploring the beautiful island of Cozumel on wheels! Whether you're a seasoned explorer or a first-time rider, we have the perfect scooter, ATV or Jeep for you to experience the freedom and excitement of cruising around this tropical paradise.</p>
-            <button>Make a reservation today!</button>
+
+            <a class="button large-button" href="reservations.html">Make a reservation!</a>
         </section>
         <div id="playa-location">
             <picture>
@@ -60,7 +61,7 @@
         <section id="location-info">
             <h2>We have two wonderful locations to check out.</h2>
             <p>Our first location is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel. Our second location is near the Terminal Puerta Maya further south along the coast - a great location for our customers who are porting from their cruise.</p>
-            <button>View our locations</button>
+            <a class="button medium-button" href="contact.html">View our locations</a>
         </section>
         <div id="home-rental-images">
             <div>
@@ -85,7 +86,7 @@
         <section id="rental-description">
             <h2>Our Rentals</h2>
             <p>Looking for adventure on the open road? Scoots Motor Vehicles has you covered with top-quality rentals! Choose from our reliable motor scooters, rugged ATVs, and iconic Jeep Wranglers to make your journey unforgettable. Rent today and experience the freedom of the ride with Scoots Motor Vehicles! </p>
-            <button>Check out rentals</button>
+            <a class="button medium-button" href="rentals.html">Check out rentals</a>
         </section>
         <div id="weather-cards">
             <div class="weather-card" id="weather-today">
@@ -120,5 +121,6 @@
     <script src="scripts/hightemp.js"></script>
     <script src="scripts/closebanner.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/currentpage.js"></script>
 </body>
 </html>

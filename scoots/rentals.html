@@ -24,10 +24,10 @@
         <button id="menu" aria-label="Menu Button"></button>
     </header>
     <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="rentals.html">Rentals</a>
-        <a href="reservations.html">Reservations</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" id="home-page">Home</a>
+        <a href="rentals.html" id="rentals-page">Rentals</a>
+        <a href="reservations.html" id="reservations-page">Reservations</a>
+        <a href="contact.html" id="contact-page">Contact</a>
     </nav>
     <main>
         <div class="hero-text-container subpage-header">
@@ -51,19 +51,19 @@
                     <img src="images/honda-metropolitan.webp" alt="Honda Metropolitan motor scooter">
                     <p class="bold">Honda Metropolitan 49cc</p>
                     <p><span class="bold">Max Persons:</span> 1 person</p>
-                    <a href="reservations.html"><button class="blue-button">Rent Metropolitan</button></a>
+                    <a href="reservations.html" class="button half-width-button">Rent Metropolitan</a>
                 </div>
                 <div class="vehicle-card">
                     <img src="images/honda-dio.webp" alt="Honda Dio motor scooter">
                     <p class="bold">Honda Dio 110cc</p>
                     <p><span class="bold">Max Persons:</span> 2 person</p>
-                    <button class="blue-button">Rent Dio</button>
+                    <a href="reservations.html" class="button half-width-button">Rent Dio</a>
                 </div>
                 <div class="vehicle-card">
                     <img src="images/honda-pcx-light.webp" alt="Honda PCX motor scooter">
                     <p class="bold">Honda PCX150 149cc</p>
                     <p><span class="bold">Max Persons:</span> 2 person</p>
-                    <button class="blue-button">Rent PCX150</button>
+                    <a href="reservations.html" class="button half-width-button">Rent PCX150</a>
                 </div>
             </div>
         </section>
@@ -79,7 +79,7 @@
                 <img src="images/honda-pioneer.webp" alt="Honda Pioneer 1000">
                 <p class="bold">Honda Pioneer 1000</p>
                 <p><span class="bold">Max Persons:</span> 4 person</p>
-                <button class="blue-button">Rent Pioneer</button>
+                <a href="reservations.html" class="button half-width-button">Rent Pioneer</a>
             </div>
         </section>
         <a class="pricing-link bold" href="#rental-pricing">VIEW PRICING <img src="images/arrow-icon.svg" alt="arrow icon" class="arrow-icon"></a>
@@ -96,14 +96,14 @@
                     <p class="bold">Jeep Wrangler</p>
                     <p>4 Door, Manual, A/C</p>
                     <p><span class="bold">Max Persons:</span> 4 person</p>
-                    <button class="blue-button">Rent 4 Door Jeep</button>
+                    <a href="reservations.html" class="button half-width-button">Rent 4 Door Jeep</a>
                 </div>
                 <div class="vehicle-card">
                     <img src="images/2door-jeep.webp" alt="2 Door Jeep Wrangler">
                     <p class="bold">Jeep Wrangler</p>
                     <p>2 Door, Manual, Open Air</p>
                     <p><span class="bold">Max Persons:</span> 4 person</p>
-                    <button class="blue-button">Rent 2 Door Jeep</button>
+                    <a href="reservations.html" class="button half-width-button">Rent 2 Door Jeep</a>
                 </div>
             </div>
             
@@ -177,7 +177,7 @@
                 </thead>
         </table>
         <div class="button-center">
-            <button id="rent-vehicle-button">Rent A Vehicle</button>
+            <a href="reservations.html" class="button medium-button">Rent a Vehicle</a>
         </div>
         
 
@@ -199,5 +199,6 @@
     </footer>
     <script src="scripts/menu.js"></script>
     <script src="scripts/getprices.js"></script>
+    <script src="scripts/currentpage.js"></script>
 </body>
 </html>

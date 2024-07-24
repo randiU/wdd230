@@ -53,7 +53,7 @@
         grid-column: 1/4;
     }
 
-    #hero-text-container p{
+    .hero-text-container p {
         display: none;
     }
 

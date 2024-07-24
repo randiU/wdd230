@@ -112,5 +112,19 @@
 
     /*****Contact Us*****/
 
+    /****Buttons*******/
+    .half-width-button {
+        width: 50%;
+    }
+    .large-button {
+        width: 50%;
+    }
+    
+    .medium-button {
+        width: 50%;
+    }
 
+    #contact-form input[type="submit"] {
+        width: 60%!important;
+    }
 }

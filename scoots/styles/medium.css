@@ -48,4 +48,16 @@
     #contact-form input {
         width: 80%;
     }
+
+    /*****Buttons****/
+    .half-width-button {
+        width: 50%;
+    }
+    .large-button {
+        width: 30%;
+    }
+    
+    .medium-button {
+        width: 30%;
+    }
 }
